@@ -1,0 +1,80 @@
+﻿body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,宋体,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+code, kbd, pre, samp {
+    font-family: courier new,courier,monospace;
+}
+small {
+    font-size: 12px;
+}
+ul, ol {
+    list-style: none outside none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+sup {
+    vertical-align: text-top;
+}
+sub {
+    vertical-align: text-bottom;
+}
+legend {
+    color: #000000;
+}
+fieldset, img {
+    border: 0 none;
+}
+button, input, select, textarea {
+    font-size: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+mark {
+    background: none repeat scroll 0 0 #FFFF00;
+}
+/*********内容样式***********/
+ #demo
+        {
+            height: 298px;
+            overflow: hidden;
+            width: 248px;
+            position: relative;
+        }
+.s-demo{ width:300px; height:249px; float:left;border-bottom: 1px solid #cda61d; }
+.yslider-stick{position: absolute;left: 1px; top: 1px; background: none repeat scroll 0 0 #FFFFFF; font-size: 12px;line-height: 24px;width:47px;height: 170px;}
+.tabs1{left: 0px;top: 41px; border-left: 0px #ccc solid;}
+.tabs2{left: 252px; top: 41px;}
+.yslider-stick li{border-right: 1px solid #cda61d;border-left: 1px solid #cda61d; border-top:1px solid #cda61d;width: 46px;height: 25px; margin-top:0px; margin-left:0px; background:#fff; color:#343434;}
+.yslider-stick li a{color: #666666;height: 25px;display: block;text-align: center; }
+.yslider-stick li.selected{background:#ff8300;}
+.yslider-stick li.selected a{color: #FFFFFF;text-decoration: none;font-weight: 600;  }
+.yslider-stick li a:hover{text-decoration: none;font-weight: 600;}
+.yslider-stage{width: 204px; height: 207px;overflow: hidden; position: absolute;top: 41px;left: 48px;border-top:1px solid #cda61d;}
+.yslider-stage img{ width:204px; height:207px;}
+		
+		
+.title {width:298px; height:40px; clear:both;border-top:1px solid #cda61d;border-left:1px solid #cda61d;border-right:1px solid #cda61d;}
+.middle { width:298px; height:40px; background:url(../images/middle-bg.jpg) repeat-x 0px bottom;}
+.middle a { display:inline-block; margin-left:13px; margin-right:10px; height:40px; vertical-align:middle; line-height:40px; color:#333; font-weight:bold; font-size:14px;}
+.middle a:hover {color:#F00; text-decoration:none;}

@@ -1,0 +1,43 @@
+﻿body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {margin: 0;padding: 0;}
+ul, ol {list-style: none outside none;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+img {border: 0 none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/*********内容样式***********/
+.yqfdemo{ width:468px; height:60px;}
+.s-demo1{ width:468px; height:59px; float:left;  position:relative; border-bottom: 1px solid #fac1c1;  }
+
+.yslider-stick{ position:absolute; font-size: 12px; width:80px; height:58px; overflow:hidden;}
+.tabs1{left:0px; position:absolute; border-left: 0px;}
+.tabs2{right:0px; position:absolute;}
+.yslider-stick li{ width:78px;margin-top:0px; margin-left:0px; color:#343434;  border:1px solid #fac1c1; border-bottom:none;float:left;
+    background-image:-moz-linear-gradient(top, #fefefe, #f8e5e8);
+	background-image:-ms-linear-gradient(top, #fefefe, #f8e5e8);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#fefefe), to(#f8e5e8));
+	background-image:-webkit-linear-gradient(top, #fefefe, #f8e5e8);
+	background-image:-o-linear-gradient(top, #fefefe, #f8e5e8);
+	background-image:linear-gradient(top, #fefefe, #f8e5e8);
+	background-repeat:repeat-x;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#f8e5e8', GradientType=0); }
+.yslider-stick li a{color:#666; line-height:19px; display:block; text-align:center; }
+.yslider-stick li.selected{
+	background-image:-moz-linear-gradient(top, #ee4242, #d20202);
+	background-image:-ms-linear-gradient(top, #ee4242, #d20202);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ee4242), to(#d20202));
+	background-image:-webkit-linear-gradient(top, #ee4242, #d20202);
+	background-image:-o-linear-gradient(top, #ee4242, #d20202);
+	background-image:linear-gradient(top, #ee4242, #d20202);
+	background-repeat:repeat-x;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee4242', endColorstr='#d20202', GradientType=0);}
+.yslider-stick li.selected a{color:#fff; text-decoration:none; }
+.yslider-stick li a:hover{text-decoration: none;}
+
+.yslider-stage1{width: 308px; height: 58px; overflow: hidden; position: absolute; left: 80px; border-top:1px solid #fac1c1;}
+.yslider-stage1 img{ width:308px; height:58px;}
+
+ .Over{ width:110px; height:18px; background:url(../../images/yiqifa_ad_big.png); right:0px; bottom:0px;display: block; position: absolute; cursor: pointer; z-index:250;}
+.Out{ width:18px; height:18px; background:url(../../images/yiqifa_ad_small.png); right:0px; bottom:0px;display: block; position: absolute; cursor: pointer; z-index:250;}
+
+		
